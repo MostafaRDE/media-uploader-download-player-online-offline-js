@@ -1,0 +1,35 @@
+{
+  "name": "media-package",
+  "version": "0.0.1",
+  "description": "Media uploader, downloader and player (Online and offline)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MostafaRDE/media-uploader-download-player-online-offline-js.git"
+  },
+  "keywords": [
+    "media",
+    "uploader",
+    "downloader",
+    "player",
+    "online",
+    "offline",
+    "streamer",
+    "stream",
+    "radio",
+    "tv",
+    "movie",
+    "music",
+    "audio",
+    "video"
+  ],
+  "author": "Mostafa Effati <mostafa.rostamdokht@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js/issues"
+  },
+  "homepage": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js#readme"
+}
