@@ -2,8 +2,9 @@
   "name": "media-package",
   "version": "0.0.1",
   "description": "Media uploader, downloader and player (Online and offline)",
-  "main": "main.js",
+  "main": "src/main.cjs",
   "scripts": {
+    "start": "node src/main.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
