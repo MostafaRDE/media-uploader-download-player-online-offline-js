@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js/issues"
   },
-  "homepage": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js#readme"
+  "homepage": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
