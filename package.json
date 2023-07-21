@@ -4,9 +4,11 @@
   "description": "Media uploader, downloader and player (Online and offline)",
   "main": "src/main.cjs",
   "scripts": {
+    "prepare": "husky install",
     "start": "node src/main.cjs",
     "dev": "nodemon src/main.cjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint 'src/**/*.cjs' --fix"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,7 @@
   },
   "devDependencies": {
     "eslint": "^8.45.0",
+    "husky": "^8.0.3",
     "nodemon": "^3.0.1"
   }
 }
