@@ -2,8 +2,6 @@ const path = require('node:path')
 const express = require('express')
 const router = require('../routers/index.cjs')
 
-console.log(process.cwd())
-
 const Application = (function()
 {
     class Application
