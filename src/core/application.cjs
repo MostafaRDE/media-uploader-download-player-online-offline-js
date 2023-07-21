@@ -10,7 +10,7 @@ const Application = (function()
         {
             this.app.listen(3000, 'localhost', () =>
             {
-                console.log(`Example app listening on port ${ port }`)
+                console.log('Example app listening on port 3000')
             })
         }
     }
@@ -21,3 +21,5 @@ const Application = (function()
 
     return { getInstance }
 })()
+
+module.exports = Application

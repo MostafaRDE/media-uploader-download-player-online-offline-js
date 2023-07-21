@@ -1,13 +1,9 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const Application = require('./core/application.cjs')
 
-app.get('/', (req, res) =>
+function bootstrap()
 {
-    res.send('<h1>Hello Amir!</h1>')
-})
+    const app = Application.getInstance()
+    app.listen()
+}
 
-app.listen(port, () =>
-{
-    console.log(`Example app listening on port ${ port }`)
-})
+bootstrap()
