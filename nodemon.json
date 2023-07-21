@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "ext": "js,mjs,cjs,json",
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "events": {
+        "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+    },
+    "ignore": [
+        "**/test/**",
+        "**/docs/**",
+        "**/storage/**",
+        "**/node_modules/**"
+    ],
+    "watch": [
+        "src/"
+    ]
+}
