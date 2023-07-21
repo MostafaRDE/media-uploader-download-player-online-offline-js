@@ -1,5 +1,8 @@
+const path = require('node:path')
 const express = require('express')
 const router = require('../routers/index.cjs')
+
+console.log(process.cwd())
 
 const Application = (function()
 {
@@ -9,6 +12,13 @@ const Application = (function()
 
         constructor()
         {
+            this.app.use(
+                '/media',
+                (req, res, next) =>  next(), // Download middleware
+                express.static(
+                    path.join(process.cwd(), 'storage/uploads'),
+                ),
+            )
             this.app.use('/', router)
         }
 
