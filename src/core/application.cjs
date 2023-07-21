@@ -1,10 +1,16 @@
 const express = require('express')
+const router = require('../routers/index.cjs')
 
 const Application = (function()
 {
     class Application
     {
         app = express()
+
+        constructor()
+        {
+            this.app.use('/', router)
+        }
 
         listen()
         {
