@@ -5,6 +5,7 @@
   "main": "src/main.cjs",
   "scripts": {
     "start": "node src/main.cjs",
+    "dev": "nodemon src/main.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,5 +36,8 @@
   "homepage": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
