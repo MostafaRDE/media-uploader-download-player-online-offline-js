@@ -1,0 +1,54 @@
+{
+  "name": "media-package",
+  "version": "0.0.2",
+  "description": "Media uploader, downloader and player (Online and offline)",
+  "main": "src/main.cjs",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "node src/main.cjs",
+    "dev": "nodemon src/main.cjs",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint 'src/**/*.cjs' --fix",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MostafaRDE/media-uploader-download-player-online-offline-js.git"
+  },
+  "keywords": [
+    "media",
+    "uploader",
+    "downloader",
+    "player",
+    "online",
+    "offline",
+    "streamer",
+    "stream",
+    "radio",
+    "tv",
+    "movie",
+    "music",
+    "audio",
+    "video"
+  ],
+  "author": "Mostafa Effati <mostafa.rostamdokht@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js/issues"
+  },
+  "homepage": "https://github.com/MostafaRDE/media-uploader-download-player-online-offline-js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-angular": "^17.6.7",
+    "eslint": "^8.45.0",
+    "husky": "^8.0.3",
+    "nodemon": "^3.0.1",
+    "release-it": "^16.1.3",
+    "sequelize-cli": "^6.6.1"
+  }
+}
